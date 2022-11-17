@@ -5,7 +5,7 @@
  * pre-order traversal
  *
  * @tree: tree root
- * func: pointer to a function to call for each node
+ * @func: pointer to a function to call for each node
  * Return: no return
  */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
